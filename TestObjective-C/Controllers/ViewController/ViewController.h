@@ -9,6 +9,12 @@
 
 @interface ViewController : UIViewController
 
+// MARK: - Outlets
+@property (weak, nonatomic) IBOutlet UILabel *lblTitle;
+
+
+// MARK: - Methods
+- (NSString *)getTitle:(NSInteger) inputInteger;
 
 @end
 

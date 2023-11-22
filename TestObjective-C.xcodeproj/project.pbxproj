@@ -61,19 +61,59 @@
 		AD0F1F0D2B0DD0B200950F7B /* TestObjective-C */ = {
 			isa = PBXGroup;
 			children = (
+				AD0F1F272B0DD2AE00950F7B /* App */,
+				AD0F1F2B2B0DD32600950F7B /* Views */,
+				AD0F1F282B0DD2CE00950F7B /* Controllers */,
+				AD0F1F2A2B0DD30B00950F7B /* Assets */,
+				AD0F1F1F2B0DD0B400950F7B /* Info.plist */,
+			);
+			path = "TestObjective-C";
+			sourceTree = "<group>";
+		};
+		AD0F1F272B0DD2AE00950F7B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F1F202B0DD0B400950F7B /* main.m */,
 				AD0F1F0E2B0DD0B200950F7B /* AppDelegate.h */,
 				AD0F1F0F2B0DD0B200950F7B /* AppDelegate.m */,
 				AD0F1F112B0DD0B200950F7B /* SceneDelegate.h */,
 				AD0F1F122B0DD0B200950F7B /* SceneDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AD0F1F282B0DD2CE00950F7B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F1F292B0DD2F200950F7B /* ViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AD0F1F292B0DD2F200950F7B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
 				AD0F1F142B0DD0B200950F7B /* ViewController.h */,
 				AD0F1F152B0DD0B200950F7B /* ViewController.m */,
-				AD0F1F172B0DD0B200950F7B /* Main.storyboard */,
-				AD0F1F1A2B0DD0B400950F7B /* Assets.xcassets */,
-				AD0F1F1C2B0DD0B400950F7B /* LaunchScreen.storyboard */,
-				AD0F1F1F2B0DD0B400950F7B /* Info.plist */,
-				AD0F1F202B0DD0B400950F7B /* main.m */,
 			);
-			path = "TestObjective-C";
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AD0F1F2A2B0DD30B00950F7B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F1F1A2B0DD0B400950F7B /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AD0F1F2B2B0DD32600950F7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F1F172B0DD0B200950F7B /* Main.storyboard */,
+				AD0F1F1C2B0DD0B400950F7B /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
